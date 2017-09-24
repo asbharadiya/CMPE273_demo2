@@ -1,0 +1,26 @@
+.app-container {
+  margin-top: 100px;
+}
+
+.app-container .item-row {
+  margin: 0px;
+  margin-bottom: 10px;
+  padding: 15px 0px;
+  border: 1px solid;
+}
+
+.app-container .item-row .item-name {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+}
+
+.app-container .item-row .item-price {
+  float: left;
+  width: 100%;
+}
+
+.app-container .item-row .item-qty {
+  float: left;
+}
